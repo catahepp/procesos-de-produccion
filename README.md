@@ -1,10 +1,9 @@
-# Procesos-de-produccion
+# Procesos de produccion | Módulo Web
 
-Clases del módulo Web
+http://profesor.faco.cl
+profesor@faco.cl
 
-5 y 12 de septiembre, 2017.
-
-En este módulo, en el que contamos con 2 clases, haremos una introducción a los lenguajes habituales del Front-End, esto les permitirá:
+En este módulo, en el que contamos con 2 clases, haremos una **introducción a los lenguajes del Front-End**, esto les permitirá:
 
 - entender aquello que se muestra al “ver código fuente”;
 - producir prototipos funcionales de aplicaciones; e
@@ -20,4 +19,6 @@ La evaluación del ejercicio final puede recibir bonificaciones considerando:
 
 Esta entrega se hará mediante [GitHub Pages](https://pages.github.com/), atendiendo a un protocolo descrito en la rúbrica de evaluación.
 
-En la primera clase, de 5 de septiembre, haremos una introducción general a los procesos de producción Web, y una introducción específica a los lenguajes HTML, CSS y JS: https://profesorfaco.github.io/procesos-de-produccion/
+En la primera clase, de 5 de septiembre, haremos una introducción a los procesos de producción Web, y una introducción a los lenguajes HTML, CSS y JS: https://profesorfaco.github.io/procesos-de-produccion/
+
+En la segunda clase, de 12 de septiebre, será entregada una plantilla sobre la que trabajaremos con lo aprendido en la primera clase.
