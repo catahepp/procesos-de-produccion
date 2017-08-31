@@ -18,4 +18,6 @@ La evaluación del ejercicio final puede recibir bonificaciones considerando:
 - respuestas correctas en cuestionarios cortos (que se aplican durante las clases).
 - adelanto en la fecha de entrega (si su portafolio web está en línea antes de las 23.59 hrs. del domingo 17 de septiembre.
 
-Esta entrega se hará mediante [GitHub Pages](https://pages.github.com/) y un protocolo que estará definido en la rúbrica de evaluación.
+Esta entrega se hará mediante [GitHub Pages](https://pages.github.com/), atendiendo a un protocolo descrito en la rúbrica de evaluación.
+
+En la primera clase, de 5 de septiembre, haremos una introducción general a los procesos de producción Web, y una introducción específica a los lenguajes HTML, CSS y JS: https://profesorfaco.github.io/procesos-de-produccion/
