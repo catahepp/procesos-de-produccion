@@ -14,6 +14,11 @@ body{
   letter-spacing:0.01em;
   word-spacing:0.02em;
 }
+
+@media all and (orientation: portrait) {
+.contenedor{padding:2em;}
+}
+
 .contenedor img{width: 100%; height:auto;}
 h1,h2,h3,h4,p{font-weight:400;}
 h5,h6,strong,b{font-weight:700;}
