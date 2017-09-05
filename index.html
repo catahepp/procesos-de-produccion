@@ -4,274 +4,153 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Procesos de Producción | Módulo Web</title>
-<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,500" rel="stylesheet">
 <link href="estilo.css" rel="stylesheet" >
 </head>
 <body>
 <div class="contenedor">
 <h1>Procesos de Producción</h1>
-<h2>Módulo 2 / Web</h2>
-<p>
-Martes 5 de septiembre, 2017<br />
-<a href="http://profesor.faco.cl">http://profesor.faco.cl</a><br />
-<a href="mailto:profesor@faco.cl">profesor@faco.cl</a>
-</p>
+<h2>Módulo Web</h2>
+<p><strong>Clase 1</strong>: Martes 5 de septiembre, 2017</p>
+<ul>
+  <li><a href="index.html">Introducción</a>
+    <ul>
+      <li>La prehistoria</li>
+      <li>La historia</li>
+      <li>La actualidad</li>
+    </ul>
+  </li>
+  <li><a href="lenguajes.html">Lenguajes</a></li>
+  <li><a href="aplicacion.html">Aplicación</a></li>
+</ul>
 <hr />
-<h2>Introducción</h2>
-<p>A finales de la década de 1980, trabajando por una mejor manera de actualizar y compartir información entre investigadores del <abbr title="Conseil Européen pour la Recherche Nucléaire">CERN</abbr>, <a href="https://es.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a> desarrolló los tres pilares fundamentales sobre los que se levanta la Web: </p>
+<h2 id="main">Introducción</h2>
+<h4>La prehistoria</h4>
+<p>En 1989, trabajando por una mejor <a href="https://www.w3.org/History/1989/proposal.html">manera de intercambiar información</a> entre investigadores del <abbr title="Conseil Européen pour la Recherche Nucléaire">CERN</abbr>, <strong><a href="https://es.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a> desarrolló los tres pilares</strong> sobre los que se levanta, hasta hoy en día, la Web: </p>
 <ul>
-<li>el <strong>lenguaje <a href="https://developer.mozilla.org/es/docs/Web/HTML">HTML</a></strong> (HyperText Markup Language), para describir el contenido de la página web;</li>
-<li>el <strong>protocolo HTTP</strong> (HyperText Transfer Protocol), para las transacciones entre <a href="https://es.wikipedia.org/wiki/Cliente-servidor">cliente y servidor</a>; y</li>
-<li>la <strong>URL</strong> (Uniform Resource Locator), para apuntar a un recurso en una dirección.</li>
+<li>el <strong><abbr title="HyperText Markup Language">HTML</abbr></strong>, un lenguaje para <a href="https://developer.mozilla.org/es/docs/Web/HTML">describir el contenido de la página web, pero no su funcionalidad</a>;</li>
+<li>el <strong><abbr title="HyperText Transfer Protocol">HTTP</abrr></strong>, un protocolo para regular las relaciones entre <a href="https://es.wikipedia.org/wiki/Cliente-servidor">cliente y servidor</a>; y</li>
+<li>la <strong><abbr title="Uniform Resource Locator">URL</abbr></strong>, una referencia para un recurso que puede corresponder a un archivo en un servidor.</li>
+</ul>
+<p>En marzo de 2017 <a href="https://webfoundation.org/2017/03/web-turns-28-letter/">la Web cumplió 28 años</a>, pero la ambición por llegar a todo lo ancho del mundo es un año menor. Fue en <a href="https://www.w3.org/History.html">noviembre de 1990</a> cuando el mismo Tim Berners-Lee desarrolló <a href="https://www.w3.org/People/Berners-Lee/WorldWideWeb.html">WorldWideWeb</a>, el primer navegador Web, el primer sofware que permitía <strong>ver páginas Web</strong>.</p>
+
+<figure>
+<img src="https://www.w3.org/History/1994/WWW/Journals/CACM/screensnap2_24c.gif">
+<figcaption>WorldWideWeb era, en 1990, la única manera de ver y editar la Web.</figcaption>
+</figure>
+
+<h4>La historia</h4>
+
+<p>En 1992, aprovechando el millón de computadoras ya conectadas a Internet, Word Wide Web (con las palabras separadas y abreviada como WWW) comenzó a ser el nombre de una red informática mundial.</p>
+
+<p>Luego, en 1994 se realizó la <a href="http://www94.web.cern.ch/WWW94/">primera conferencia internacional de la WWW</a>. En 1995 la WWW fue uno de los temas principales en la <a href="https://es.wikipedia.org/wiki/G-7">Cumbre del G7</a>. Y en 1996 ya eran 10 millones de computadoras conectadas a Internet.</p>
+
+<p>Con esta potente partida, distintos programadores dislumbraron la necesidad de sumar funcionalidades a lo que era simplemente descripción:</p>
+<p></p>
+<ul>
+<li>hubo esfuerzos por crear lenguajes que permitieran ejecutar funciones del <a href="https://es.wikipedia.org/wiki/Script_del_lado_del_servidor">lado del servidor</a>, dando origen a lenguajes como <a href="http://php.net/manual/es/">PHP</a>; y</p></li>
+<li>hubo esfuerzos por crear lenguajes que permitieran ejecutar funciones del <a href="https://es.wikipedia.org/wiki/Lado_del_cliente">lado del cliente</a>, dando origen a lenguajes como <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">JavaScript</a>.</li>
 </ul>
 
-<p>Sobre estos tres pilares es que se levanta un sistema de distribución globar, accesible vía Internet y Navegador Web, que pronto sumó:</p>
+<p>En paralelo al desarrollo de funciones, también se proponían modos de mejorar la presentación de las páginas web sin sobrecargar el HTML. La propuesta que se convirtió en estándar fue la de <a href="https://developer.mozilla.org/es/docs/Web/CSS">CSS</a> (Cascading Stylesheets), un lenguaje descriptivo permite controlar estilo y formato de las páginas web.</p>
+
+<p>Con estas tecnologías, <strong>para el año 2000 ya podrían diferenciarse dos modos de hacer páginas web</strong>:</p>
 
 <ul>
-<li>esfuerzos de desarrolladores por crear lenguajes que permitieran ejecutar funciones del lado del servidores, dando origen a lenguajes tales como <a href="http://php.net/manual/es/">PHP</a>; y</p></li>
-<li>esfuerzos de desarrolladores por crear lenguajes que permitieran ejecutar funciones del lado del cliente, dando origen a lenguajes tales como <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">JavaScript</a>.</li>
+  <li>orientadas a la información, con sitios web como sistema de hipertexto; y</li>
+  <li>orientadas a las tareas, con aplicaciones web como interfaz de software.</li>
 </ul>
-
-<p>En paralelo al desarrollo de funciones, también se proponían modos de mejorar la presentación de las páginas web. La propuesta que se convirtió en estándar fue la de <a href="https://developer.mozilla.org/es/docs/Web/CSS">CSS</a> (Cascading Stylesheets), un lenguaje descriptivo permite controlar estilo y formato de las páginas web.</p>
-
-<p>Con estas tecnologías, para el año 2000 ya podrían diferenciarse dos modos de hacer páginas web. Uno orientado a la información, con sitios web como sistema de hipertexto, y otro orientado a las tareas, con aplicaciones web como interfaz de software:</p>
 
 <figure>
 <img src="https://i.pinimg.com/originals/b3/66/ce/b366cec6b0658bbb7baa329aec69906e.jpg" alt="JJGARRETT" />
-<figcaption>Diagrama de Jesse James Garret</figcaption>
+<figcaption>Diagrama de Jesse James Garret, que buscaba describir las consideraciones clave que forman parte del desarrollo
+de un sitio o aplicación Web</figcaption>
 </figure>
 
-<p>Para acotar la historia entre los años 2000 y la actualidad, habría que preguntarle a sus padres o profesores, cuánto tiempo pasaron frente a sitios web hechos en Flash, antes de poder publicar y recibir comentarios en MySpace, Fotolog, Blogger, Flickr, etc.</p>
+<p>Es poco probable que ustedes hayan perdido tiempo cargando algún sitio web hecho en Flash. Es muy probable es que <a href="https://es.wikipedia.org/wiki/Fotolog.com">Fotolog</a>, <a href="https://es.wikipedia.org/wiki/Myspace">MySpace</a> y <a href="https://es.wikipedia.org/wiki/Blogger">Blogger</a> suenen a historias de papás, tíos o hermanos mayores.</p>
 
-<p>Luego, mientras aparecían las plataformas de distribución digital de aplicaciones móviles para smartphones y tablets, las publicaciones en la Web se abreviaron tanto como una opinión en 140 caracteres, un chiste corto en “formato de meme” y un clic en “me gusta”. </p>
+<p>Por sus edades, están más cerca de recordar sus primeras aplicaciones móviles para smartphones y tablets. Aplicaciones que permiten, hasta hoy en día, hacer publicaciones tan breves como un clic en “me gusta”, mientras te vas enterando de los estados de tus amigos.</p>
 
-<p>Entre las aplicaciones para smartphones y tablets se incluyen Navegadores Web, y sus conexiones a Internet, cada vez más rápidas, se multiplican. Esto nos exige pensar:</p>
+<h4>La actualidad</h4>
+
+<p>Las aplicaciones móviles han modificado la manera en que nos relacionamos con los sitios y aplicaciones web. Con esto, la producción web debe:</p>
 
 <ul>
-<li>por un lado, en <a href="https://es.wikipedia.org/wiki/Diseño_web_adaptable">diseño web adaptable</a>; y</li>
-<li>por otro lado, en aplicaciones web cada vez más difíciles-de-simplificar</li>
+<li>responder o adaptarse a la visualización en dispositivos móviles.</li>
+<li>responder o adaptarse a la interacción descuidada, pero efectiva.</li>
 </ul>
 
-<p>Esto ha modificado los procesos de producción relacionados, junto con las especialidades requeridas. Hoy en día, un “Webmaster” es un especialista en vías de extinción. </p>
+<figure>
+<img src="http://i.huffpost.com/gen/1758465/images/o-MOM-TEXTING-facebook.jpg">
+<figcaption>Pobre niña.</figcaption>
+</figure>
 
-<p>Para caracterizar los roles en los procesos de producción actuales, podemos apoyarnos en los roles declarados por el área de <a href="https://design.google/jobs/">Diseño en Google</a></p>
+<p>En la actualidad, nuevos los procesos de producción para web exigen roles muy distintos del "webmaster", o de un "programador". Para caracterizar estos roles podemos apoyarnos en las carreras en el área de <a href="https://careers.google.com/fields-of-work/design/">Diseño en Google</a> (traducción literal):</p>
 
-<p><strong>Motion Designer</strong>. As a Motion Designer, it’s your job to apply your passion for animation to simplify complex interactions and solve challenging design problems.</p>
+<ul>
+<li><strong>Visual Designer</strong>. Trabaja (Weave) con iconografía, tipografía, color, espacio y textura para ayudar a nuestros usuarios a navegar con éxito por nuestros productos.</li>
+<li><strong>Motion Designer</strong>. Utiliza el diseño audiovisual para ayudar a contar la historia de un producto, guiar a nuestros usuarios, mejorar la usabilidad y hacer que las experiencias de nuestros usuarios sean adaptables y divertidas.</li>
+<li><strong>Interaction Designer</strong>. Transforma las tareas complejas en diseños intuitivos, accesibles y fáciles de usar para todos, desde usuarios principiantes hasta expertos.</li>
+<li><strong>UX Researcher</strong>. Investiga y comprende el modo en que las experiencias de los usuarios se hacen intuitivas, accesibles y mágicas.</li>
+</ul>
 
-<p><strong>UX Program Manager</strong>. Combining expert project management skills with a passion for user experience, Design Producers work cross-functionally to collaborate with managers, designers, and engineering teams.</p>
+<p>En la lista no incluyo a los <strong>UX Engineer</strong> ni al <strong>Content Strategist/UX Writer</strong>, porque no están relacionados, directamente, con los procesos de producción para web en los que participan, habitualmente, los diseñadores. </p>
 
-<p><strong>UX Researcher</strong>. User Experience (UX) Researchers work to answer the most challenging questions in design.</p>
-
-<p><strong>Visual Designer</strong>. As a Visual Designer, you’ll delight users with design that inspires, engages, and excites them.</p>
-
-<p>En la lista no incluyo a los <em>UX Writer</em>, <em>Industrial Designer</em> ni al <em>Design Advocate</em>, porque no están relacionados, directamente, con los procesos de producción para web en los que participan, habitualmente, los diseñadores. </p>
-
-<p>Ahora bien, eso es lo que dice Google ¿Pero qué es lo habitual en el mercado?</p>
-
-<p>Según la posición desde donde se aporte al proceso de producción, puede identificarse algunos roles:</p>
+<p><strong>Eso es lo que dice Google ¿Pero qué es lo habitual en el mercado?</strong></p>
 
 <figure>
 <img src="https://benmelbourne.files.wordpress.com/2011/11/ux-vs-ui-dev-skills-expanded.png" alt="Diagrama" />
+<figcaption>Este diagrama permite diferenciar a los roles según su centro, sean las persona o las tecnologías.</figcaption>
 </figure>
 
-<p>Podemos decir que en la izquierda del gráfico tenemos a <em>las personas</em>. Mientras que a la derecha tenemos a <em>la matrix</em>.</p>
+<p>En la izquierda del diagrama tenemos a quienes aportan a los procesos de producción cerca de las personas. Mientras que a la derecha tenemos a quienes aportan desde "la matrix".</p>
 
-<p>Para caracterizar de manera más rápida a tres espacios para el diseñador, podemos decir: </p>
+<p>Ahora bien, este diagrama presenta algunos nombres que no son los más comunes en el mercado nacional. Los ajustes al "chileno" para los rolres que cumplen los diseñadores en procesos de producción web, serían los siguientes:</p>
 
+<ul>
+<li>User Experience Designer &rarr; El UX</li>
+<li>Graphic Designer &rarr; El UI</li>
+<li>UI Developer &rarr; El Front</li>
+</ul>
+
+<p>Veamos, brévemente, qué implica cada rol:</p>
+
+<p><strong>UX (Designer)</strong>. En este rol, el diseñador debe centrarse en los usuarios al momento de escuchar, crear y validar. Su trabajo comienza en el reconocimiento de contextos y tareas, para la definición de flujos de interacción y arquitectura de información.</p>
 <figure>
 <img src="http://www.uxpamagazine.org/wp-content/uploads/2013/03/13-1-khoury3.jpg" alt="UX" />
+<figcaption>Lápiz, papel y habilidades blandas son claves en UX.</figcaption>
 </figure>
 
-<p><strong>UX (Designer)</strong>. En este rol, el diseñador debe centrarse en los usuarios al momento de escuchar, crear y validar. Su trabajo comienza en el reconocimiento de contextos y tareas, para la definición de flujos de interacción.</p>
+<p><strong>UI (Designer)</strong>. En este rol, el diseñador aprovecha sus herramientas de comunicación visual, mediante la definición y distribución de elementos en pantalla. Ellos se encargan de darle una forma bien definida a lo que determina el UX.</p>
 
-<p><strong>UI (Designer)</strong>. Este rol, el diseñador aprovecha sus herramientas de comunicación visual, mediante la definición y distribución de elementos en pantalla. Ellos se encargan de darle una forma bien definida a lo que determina el UX.</p>
+<figure>
+<img src="https://design4users.com/wp-content/uploads/2016/01/Tubik-Studio-UI-design-Saily-app.jpg" alt="UI" />
+<figcaption>La perfección a nivel de pixeles es clave en UI.</figcaption>
+</figure>
 
-<p><strong>Front-End (Developer)</strong>. Este rol es el más próximo al diseñador que sabe, y le gusta, programar. Ellos se encargan de implementar lo que determine el UI.</p>
+<p><strong>Front-End (Developer)</strong>. En este rol encontramos al diseñador que sabe, y le gusta, escribir en código, sin ser programador. Ellos se encargan de implementar lo que determine el UI.</p>
+
+<figure>
+<img src="https://cdn-images-1.medium.com/max/1920/1*RNkyx-Zq7w61eR74nMYgnA.jpeg" alt="FrontEnd" />
+<figcaption>HTML, CSS, JavaScript y cafeína son claves en FrontEnd.</figcaption>
+</figure>
 
 <p>En los proyectos más complejos, el <strong>Front-End (Developer)</strong> trabaja apoyándose en el <strong>Back-End (Developer)</strong>, este último es el que se encarga de lo que va por detrás de lo que ve el usuario. Presentado en analogía, un Front-End Gepetto deja a Pinocho listo para que un Back-End Hada Madrina le de vida. </p>
 
-<p>Difícilmente se puede encontrar a un diseñador en Back-End. Si eso ocurriera, seguro se denominaría <strong>Fullstack (Developer)</strong>, toda vez que le son familiares las facetas del Front-End y del Back-End, además de los diferentes sistemas operativos y componentes que quedan en medio de esas fronteras.</p>
+<p><strong>Difícilmente se puede encontrar a un diseñador en Back-End. Si eso ocurriera, seguro se denominaría Fullstack (Developer)</strong>, toda vez que le son familiares las facetas del Front-End y del Back-End, además de los diferentes sistemas operativos y componentes que quedan en medio de esas fronteras.</p>
 
-<p>Si hacemos una búsqueda respecto de estos roles, obtenemos lo siguiente:</p>
+<p><strong>Para cerrar</strong>, si hacemos una búsqueda en <a href="https://cl.linkedin.com/">LinkedIn</a> respecto de estos roles, obtenemos lo siguiente:</p>
 
-<p><strong>Buscando UX Designer</strong>, pueden obtener aproximadamente 120.000 resultados a nivel mundial, con <strong>284 en Chile</strong></p>
-
-<p><strong>Buscando UI Designer</strong>, pueden obtener aproximadamente 110.000 resultados a nivel mundial, con <strong>227 en Chile.</strong></p>
-
-<p><strong>Buscando Front End Developer</strong>, pueden obtener aproximadamente 115.000 resultados a nivel mundial, con <strong>292 en Chile</strong>.</p>
-
-<p><strong>Buscando Full Stack Developer</strong>, pueden obtener aproximadamente 75.000 resultados, con <strong>276 resultados en Chile.</strong></p>
+<ul>
+<li><strong>Buscando UX Designer</strong>, pueden obtener aproximadamente 120.000 resultados a nivel mundial, con <strong>284 en Chile</strong></li>
+<li><strong>Buscando UI Designer</strong>, pueden obtener aproximadamente 110.000 resultados a nivel mundial, con <strong>227 en Chile.</strong></li>
+<li><strong>Buscando Front End Developer</strong>, pueden obtener aproximadamente 115.000 resultados a nivel mundial, con <strong>292 en Chile</strong>.</li>
+<li><strong>Buscando Full Stack Developer</strong>, pueden obtener aproximadamente 75.000 resultados, con <strong>276 resultados en Chile.</strong></li>
+</ul>
 
 <p>Un dato “curioso”: La mayoría de los resultados en Chile están vinculados en un primer o segundo grado. Es un círculo relativamente pequeño, donde la mayoría se conoce, en una rotación entre trabajos con contratos cortos, siendo asesores o siendo capturados por empresas (competiendo entre ellas por obtener un recurso escaso, con alta demanda).</p>
-
-<p>En este módulo, en el que contamos con 2 clases, haremos una introducción a los lenguajes habituales del <strong>Front-End</strong>, esto les permitirá:</p>
-
-<ul>
-<li>entender aquello que se muestra al “ver código fuente”;</li>
-<li>producir prototipos funcionales de aplicaciones; y</li>
-<li>publicar su primer sitio web.</li>
-</ul>
-
-<p>Para profundizar en éstas materias, se les recomienda considerar algunos de los siguientes cursos: </p>
-
-<ul>
-<li>Diseño y Nuevos Medios, 10 créditos, cód. DNO037</li>
-<li>Diseño Web, 5 créditos, cód. DNO3232</li>
-<li>Diseño, Interacción y Experiencia Usuario, 5 créditos, cód. DNO3265</li>
-<li>Usabilidad y Nuevos Medios, 10 créditos, cód. DNO046</li>
-</ul>
-
-<p>O bien, obtener 50 créditos en el <a href="http://formaciongeneral.uc.cl/certificados-academicos/interdisciplinarios/arquitectura-diseno-y-estudios-urbanos/escuela-de-diseno/desarrollo-de-productos-y-servicios-digitales">Certificado Académico en Desarrollo de Productos y Servicios Digitales</a>.</p>
-
-<hr />
-
-<h2>Los lenguajes del Front-End</h2>
-
-<h3>HTML</h3>
-
-<p>Cada elemento de HTML se escribe, generalmente, entre etiquetas:
-<code>&lt;etiqueta&gt;contenido&lt;/etiqueta&gt;</code></p>
-
-<p>Cada elementos HTML es un sandwich, con las etiquetas como rebanadas de pan, y el contido es su relleno. Aunque también hay elementos HTML que nos obligan a cambiar la analogía del sandwich por canapé, por ejemplo: <code>&lt;hr&gt;</code>, <code>&lt;br&gt;</code>, <code>&lt;img&gt;</code>, <code>&lt;meta&gt;</code> </p>
-
-<p><strong>Con cada elemento definimos qué se ve en una página web.</strong> </p>
-
-<p>Cada elemento, en su etiqueta de inicio, puede estar determinado por uno o varios atributos; cada atributo tiene su variable.</p>
-
-<p><code>&lt;etiqueta atributo=&quot;variable&quot;&gt;contenido&lt;/etiqueta&gt;</code></p>
-
-<p>Deben notar que atributos y variables se escriben solo en la primera etiqueta, la de apertura, nunca en la de cierre.
-Mediante atributos y variables pueden cambiar un simple párrafo:</p>
-
-<p><code>&lt;p&gt;esto es un párrafo&lt;/p&gt;</code></p>
-
-<p>Este elemento puede seguir teniendo el mismo contenido, pero podría tener las características de una clase &quot;alumna&quot; y ser único por una identidad &quot;mariana&quot;.</p>
-
-<p><code>&lt;p class=&quot;alumna&quot; id=&quot;mariana&quot;&gt;esto es un párrafo&lt;/p&gt;</code></p>
-
-<p>Atributos y variables también nos permiten establecer vínculos, relaciones y recursos. Así, por ejemplo, puedo establecer un recurso de imagen que se llama &quot;selfie&quot;, que tiene extensión &quot;jpg&quot;, y se guarda en la carpeta &quot;images&quot;, al mismo nivel que el documento HTML. Además puedo indicar que tenga una clase &quot;destacada&quot;:</p>
-
-<pre><code>&lt;img src=&quot;images/selfie.jpg&quot; class=&quot;destacada&quot;&gt;
-&lt;!--eso fue un canapé, y esto es un comentario--&gt;
-</code></pre>
-
-<h3>CSS</h3>
-
-<p>Cada regla de CSS se escribe, generalmente, así:</p>
-
-<p><code>selector{propiedad:valor;}</code></p>
-
-<p><strong>Con cada regla definimos cómo deberían verse los elementos en el HTML. Esta definición exige una conexión entre el HTML y el CSS.</strong> </p>
-
-<p>Esta conexión se hace:</p>
-
-<p>A nivel de cada regla: El selector debe apuntar a elementos, partes, estados, clases o identidades</p>
-
-<p>A nivel de conjunto de reglas: El CSS debe estar incrustado-en o vinculado-a el documento(s) HTML correspondiente(s).</p>
-
-<p>Veamos primero la conexión a nivel de cada regla, considerando el caso de los elementos:</p>
-
-<pre><code>body{
-  color:white;
-  background:black;
-  font-family:Helvetica, Arial, sans-serif;
-  font-size:1em;
-}
-</code></pre>
-
-<p>Sigamos con la conexión a nivel de cada regla, considerando ahora las partes de un elemento (pseudoelemento):</p>
-
-<pre><code>p::first-line{
-  text-transform: uppercase;
-}
-</code></pre>
-
-<p>Sigamos con la conexión a nivel de cada regla, considerando ahora un estado espacial del elemento (pseudoclase):</p>
-
-<pre><code>a:hover{
-  text-decoration: underline;
-}
-</code></pre>
-
-<p>Otra más de conexión a nivel de cada regla, con una clase (class):</p>
-
-<pre><code>.destacada{
-  border:5px solid rgba(255,255,255,1);
-}
-</code></pre>
-
-<p>Y la última conexión a nivel de cada regla, con una identidad (id):</p>
-
-<pre><code>#mariana{
-  color:rgba(255,200,200,1);
-}
-</code></pre>
-
-<p>Ahora, para cerrar, veamos la conexión a nivel de conjunto de reglas CSS.</p>
-
-<p>Bien puedes agregar un poco entre las líneas de código en el cuerpo (body) del HTML, usando atributos y variables:</p>
-
-<p><code>&lt;p style=&quot;color:red;&quot;&gt;esto es un párrafo&lt;/p&gt;</code></p>
-
-<p>Mejor sería hacerlo una vez para todo el documento dentro de la cabeza (head) del documento HTML:</p>
-
-<pre><code>&lt;style&gt;
-body{
-  color:white;
-  background:black;
-  font-family:Helvetica, Arial, sans-serif;
-  font-size:1em;
-}
-
-#mariana{
-  color:rgba(255,200,200,1);
-}
-
-/* Este es un comentario en CSS */
-&lt;/style&gt;
-</code></pre>
-
-<p>Pero lo más efectivo sería trabajar en un documento CSS independiente, que se vincule con uno o varios documentos HTML</p>
-
-<p><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/estilo.css&quot; type=&quot;text/css&quot;&gt;</code></p>
-
-<h3>JS (JavaScript)</h3>
-
-<p>En este lenguaje de programación podrán profundizar en los siguientes módulos del diplomado. Por ahora, conviene decir que se trata de un lenguaje de programación que, origintalmente, se ejecuta del <a href="https://es.wikipedia.org/wiki/Lado_del_cliente">lado del cliente</a>. </p>
-
-<p>Cuando <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Guide">JavaScript</a> se ejecuta, no modifica directamente el código fuente de la página web sino que el <a href="https://es.wikipedia.org/wiki/Document_Object_Model">DOM</a> de la misma; podemos seguirle la pista a esta ejecución mediante la <a href="https://transferwise.com/es/help/article/2247654/tecnico-navegador/como-abrir-la-consola-de-tu-navegador">Consola de JavaScript</a> que incluyen los navegadores.</p>
-
-<p>El código JavaScript se puede incluir o vincular al documento HTML entre etiquetas <code>&lt;script&gt;&lt;/script&gt;</code> y en cualquier parte del documento, aunque se suele ubicar según la prioridad de carga (si ejecuta algo clave, va arriba; si su ejecución es secundaria respecto del texto, va abajo).</p>
-
-<p>Para reducir el trabajo con JavaScript a la medida de lo justo y necesario, se acostumbra a usar librerías (bibliotecas). Una de las más usadas por los diseñadores es <a href="http://jquery.com/">jQuery</a>, con ella pueden agregar sliders, acordeones, tabs, etc.</p>
-
-<p>Pueden encontrar tutorial básico de <a href="http://jquery.com/">jQuery</a> en http://web.tursos.com/tutorial-jquery-rapido-facil-lo-basico/</p>
-
-<h3>PHP</h3>
-
-<p>Este lenguaje de programación se ejecuta <a href="https://es.wikipedia.org/wiki/Script_del_lado_del_servidor">del lado del servidor</a>, afectando al documento completo antes de que éste sea enviado al <a href="https://es.wikipedia.org/wiki/Cliente_(inform%C3%A1tica)">cliente</a>. Esta es su principal diferencia con <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Una_re-introducci%C3%B3n_a_JavaScript#Información_general">JavaScript</a>, que se ejecuta generalmente del <a href="https://es.wikipedia.org/wiki/Lado_del_cliente">lado del cliente</a>, afectando al <a href="https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n#DOM_y_JavaScript">DOM</a>.</p>
-
-<p>Como PHP se ejecuta <a href="https://es.wikipedia.org/wiki/Script_del_lado_del_servidor">del lado del servidor</a>: Nunca aparece al “ver código fuente”, ni existe una Consola de PHP en los navegadores. Por esta razón, no puedes hacer &quot;ingeniería inversa&quot; fácilmente, pero bien puedes apoyarte con consultas a <a href="http://stackoverflow.com/questions/tagged/php">Stackoverflow</a>, además del sitio con <a href="http://php.net/manual/es/langref.php">referencias oficiales de PHP</a>. Y si necesitas compartir tus trabajos con PHP, puedes usar servicios como <a href="http://codepad.org/">codepad</a>.</p>
-
-<p>Para que se ejecute PHP en sus computadores, en esta clase <strong>deben tener instalado <a href="https://www.mamp.info/en/">MAMP</a></strong>. Este programa nos permite montar un servidor local, para trabajar con <strong>Apache</strong> (servidor HTTP), <strong>MySQL</strong> (sistema de gestión de bases de datos) y <strong>PHP</strong> (lenguaje de programación).</p>
-
-<p>Para trabajar con PHP debemos usar documentos con extensión <code>*.php</code>, los que se pueden crear de la misma manera que se crean los documentos <code>*.html</code>: trabajando con cualquier editor de código.</p>
-
-<p>Dentro de los documentos con extensión <code>*.php</code> tenemos que usar etiquetas de apertura y cierre particulares, que son <code>&lt;?php</code> y <code>?&gt;</code> (las instrucciones que estén entre estas etiquetas serán filtradas e interpretadas en el servidor.</p>
-
-<p>Entre <code>&lt;?php</code> y <code>?&gt;</code> se pueden escribir una o varias instrucciones. Si se escriben varias, éstas deben separarse mediante punto y coma <code>;</code>. Y si necesitan escribir comentarios de una línea, deben anteponer un doble slash <code>//</code>. <a href="http://codepad.org/ZZXEWJXK">Por ejemplo</a>: </p>
-
-<pre><code>&lt;?php
-//primero defino una variable
-$variable = &quot;Algún contenido.&quot;;
-//luego imprimo el contenido de la variable
-echo $variable;
-?&gt;
-</code></pre>
-
-<p>Entre las instrucciones podemos aprovechar las funciones internas (incluídas) de PHP; es muy dificil que exista alguien capaz de aprender de memoria todas las <code>funciones()</code> que ofrece este lenguaje de programación, pero en el <a href="http://php.net/manual/es/langref.php">sitio oficial de PHP</a>, y en <a href="http://stackoverflow.com/questions/tagged/php">varios lugares más</a>, se puede encontrar mucha ayuda.</p>
-
-<hr />
 
 </div>
 </body>
