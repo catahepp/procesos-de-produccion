@@ -16,7 +16,7 @@ En la segunda clase, de 12 de septiebre, revisaremos, línea por línea, una pá
 
 **La nota del módulo se obtiene de la implementación de un portafolio web a partir de una plantilla. Este portafolio puede desarrollarse entre dos estudiantes. También es válido desarrollarlo de manera individual**. 
 
-El portafolio comenzará a ser desarrollado a partir de la segunda clase del múdulo, en la que se les hará entrega de una plantilla y las indicaciones necesarias para su personalización, junto con una rúbrica de evaluación.
+El portafolio comenzará a ser desarrollado a partir de la segunda clase del módulo, en la que se les hará entrega de una plantilla y las indicaciones necesarias para su personalización, junto con una rúbrica de evaluación.
 
 La evaluación del portafolio puede recibir bonificaciones considerando: 
 - el primer ejercicio de aplicación, a desarrollar al final de la primera clase (+ 0,25)
